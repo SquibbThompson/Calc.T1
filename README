@@ -1,0 +1,32 @@
+Limitations
+Computational Complexity: The underlying method, spi.quad, uses adaptive quadrature, which generally has complexity 
+
+O(nlogn), where 
+
+n is the number of evaluations.
+Precision and Stability: The result may suffer from numerical instability for highly oscillatory or singular functions.
+
+
+Security: The use of eval may expose vulnerabilities, even with safety measures. 
+(this one was auto generated which despite this perhaps **too meta analysis is still unclear why methodologically...)
+~No doubt curious output for such a begnign tool imo: but I typically use GPT for writing limitations 
+(at the risk of eyerolling density...itself a limitation and bias.)
+
+General Notes
+Both tools rely on numerical methods, so they are approximate solutions and may not always be suitable for functions that require high precision.
+The tools are designed for interactive use and prompt the user for input. They may need to be adapted for use in a broader application or automation.
+Both tools are specific to univariate functions, despite the name "Cursory Integrate Multivariate." The "multivariate" aspect refers to handling multiple functions rather than a true multivariate integration.
+Feel free to reach out if you need further clarification or if you'd like to explore specific aspects in more detail!
+
+I will , I mean whoops  : 0 (just kidding)
+
+Console example:
+
+# User inputs:
+# Enter function in terms of x: sin(x)
+# Enter the lower limit of integration: 0
+# Enter the upper limit of integration: 1.25
+# Enter the number of decimal places for the result: 2
+# Output: The integral value is: ***
+
+
